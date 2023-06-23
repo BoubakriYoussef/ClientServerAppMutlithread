@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Style pour le texte "Live Chat" */
+.text {
+    -fx-font-family: "Arial";
+    -fx-font-size: 24.0;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Style pour le label "Login Page" */
+.label {
+    -fx-font-size: 18.0;
+    -fx-text-fill: #333333;
+}
+
+/* Style pour les champs de texte */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: #999999;
+    -fx-text-inner-color: #333333;
+    -fx-font-size: 14.0;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 5.0;
+}
+
+/* Style pour le bouton de connexion */
+.button {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 14.0;
+    -fx-font-weight: bold;
+    -fx-padding: 8.0 16.0;
+    -fx-border-radius: 5.0;
+}
+
+/* Style pour le lien "Forget Password ?" */
+.hyperlink {
+    -fx-text-fill: #4CAF50;
+    -fx-font-size: 14.0;
+    -fx-font-weight: bold;
+    -fx-padding: 4.0 0.0;
+}
+

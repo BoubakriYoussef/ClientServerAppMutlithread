@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="580.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatapplicationclientserver.Controller2">
+   <right>
+      <AnchorPane prefHeight="386.0" prefWidth="429.0" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane layoutX="74.0" prefHeight="386.0" prefWidth="348.0" />
+            <ListView fx:id="testView" prefHeight="385.0" prefWidth="427.0" />
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="440.0" prefWidth="364.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="27.0" layoutY="34.0" prefHeight="27.0" prefWidth="75.0" text="Host" AnchorPane.bottomAnchor="519.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="262.0" AnchorPane.topAnchor="34.0" />
+            <Label layoutX="27.0" layoutY="87.0" text="Port" />
+            <TextField id="HostID" fx:id="HostID" layoutX="117.0" layoutY="32.0" prefHeight="31.0" prefWidth="222.0" AnchorPane.bottomAnchor="517.0" AnchorPane.leftAnchor="117.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="32.0" />
+            <TextField id="PortID" fx:id="PortID" layoutX="117.0" layoutY="87.0" prefHeight="35.0" prefWidth="222.0" AnchorPane.bottomAnchor="458.0" AnchorPane.leftAnchor="117.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="87.0" />
+            <Button id="connectbtn" fx:id="onConnect" layoutX="163.0" layoutY="130.0" mnemonicParsing="false" onAction="#onConnect" text="Connect to the server" textFill="#0d0dd0" />
+            <TextField id="msgfield" fx:id="msgfield" layoutX="117.0" layoutY="165.0" prefHeight="25.0" prefWidth="201.0" />
+            <Button id="sendbtn" fx:id="onSend" layoutX="163.0" layoutY="204.0" mnemonicParsing="false" onAction="#onSend" prefHeight="22.0" prefWidth="128.0" text="Send" textFill="#0b3bda" />
+            <Label layoutX="27.0" layoutY="164.0" prefHeight="27.0" prefWidth="75.0" text="Message" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
